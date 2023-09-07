@@ -1,0 +1,142 @@
+.questions{
+    animation: fadeIn 2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+    border-bottom: 0.8px solid #DBDEF0;
+    padding-bottom: 25px;
+}
+
+.notify{
+    display: none;
+    width: 30px;
+}
+
+.check.notify{
+    display: block;
+    width: 30px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.selected{
+    background-color: gray;
+}
+
+.choicesLabels:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.choices-div{
+    display: flex;
+    justify-content: left;
+}
+
+.choices{
+    display:none;
+}
+
+.choicesLabels{
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    text-overflow: clip;
+}
+
+
+
+.choicesLabels:active{
+    box-shadow: 0px 0px 1px 1px gray;
+    background-color: gray;
+}
+
+.check{
+    pointer-events: none;
+}
+
+.check.selected.incorrect{
+    background-color: #611b1b;
+}
+
+.check.correct{
+    background-color: #00410e;
+}
+
+.check-div{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+}
+
+.check-button{
+    margin-top: 20px;
+}
+
+.select-span{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.select-span>p{
+    width: 70px;
+    text-align: right;
+}
+
+.select{
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 350px;
+    height: 50px;
+    padding: 0 20px 0 10px;
+    border-radius: 10px;
+}
+
+
+
+.start-button{
+    margin-top: 20px;
+    width: 150px;
+}
+
+.reset-bank-btn{
+    margin-left: 20px;
+}
+
+
+@media (prefers-color-scheme: light){
+    .selected{
+      background-color: #D6DBF5;
+    }
+  
+    .choicesLabels:hover{
+        background-color: #e6e8f7;
+    }
+
+    .choicesLabels:active{
+        box-shadow: 3px 3px 3px 3px #DBDEF0;
+        background-color: #D6DBF5;
+    }
+
+    .check.selected.incorrect{
+        background-color: #F8BCBC;
+    }
+    
+    .check.correct{
+        background-color: #94D7A2;
+    }
+}
