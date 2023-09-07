@@ -33,8 +33,8 @@
 }
 
 .choices-div{
-    display: flex;
-    justify-content: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .choices{
@@ -42,7 +42,8 @@
 }
 
 .choicesLabels{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     border-radius: 8px;
     border: 1px solid gray;
     margin-right: 10px;
@@ -100,7 +101,7 @@
     border: 0;
     outline: 0;
     font: inherit;
-    width: 350px;
+    width: min(350px,calc(100vw - 154px));
     height: 50px;
     padding: 0 20px 0 10px;
     border-radius: 10px;
@@ -139,4 +140,18 @@
     .check.correct{
         background-color: #94D7A2;
     }
+}
+
+@media screen and (max-width: 500px) {
+    
+.choices-div{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: calc(100vw-64px);
+    }
+
+.choicesLabels{
+    width: calc(50vw-40px);
+}
+
 }

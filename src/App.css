@@ -49,3 +49,9 @@
     color:  #293264
   }
 }
+
+@media screen and (max-width:500px) {
+    .select{
+      width: calc(100vw - 154px);
+    }
+}

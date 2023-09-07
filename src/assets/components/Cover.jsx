@@ -17,7 +17,7 @@ export default function Cover(props){
     return(
         <div className="cover">
             <h2>Quizzical</h2>
-            <p>Some description if needed</p>
+            <p>Test your knowledge with some trivia questions!</p>
             <span className="select-span">
                 <p>Category:</p>
                 <select 
