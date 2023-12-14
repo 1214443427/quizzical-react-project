@@ -2,7 +2,7 @@
 ## About
 Test your general knowledge with a round of trivia games. This is a web app build with React. The app allows you to learn fun facts about every aspect of the world. Select questions from 24 categories and 3 difficulties in both multiple choices and true/false formats. The app supports desktop aswell as mobile browsers. There is also a dark mode apperance.
 
-[Access by clicking here](https://candid-taffy-9395de.netlify.app/)
+[Access by clicking here](https://random-facts-trivia.netlify.app)
 ### Gallery
 ![Screen Shot 2023-10-17 at 20 45 41](https://github.com/1214443427/quizzical-react-project/assets/36424586/f7789672-43b5-40aa-8f8f-0f0b98fa595f)
 
