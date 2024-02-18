@@ -1,6 +1,6 @@
 # Quizzical
 ## About
-Test your general knowledge with a round of trivia games. This is a web app build with React. The app allows you to learn fun facts about every aspect of the world. Select questions from 24 categories and 3 difficulties in both multiple choices and true/false formats. The app supports desktop aswell as mobile browsers. There is also a dark mode apperance.
+Test your general knowledge with a round of trivia games. This is a web app build with React. The app allows you to learn fun facts about every aspect of the world. Select questions from 24 categories and 3 difficulties in both multiple choices and true/false formats. The app supports desktop as well as mobile browsers. There is also a dark mode appearance.
 
 [Access by clicking here](https://random-facts-trivia.netlify.app)
 ### Gallery
